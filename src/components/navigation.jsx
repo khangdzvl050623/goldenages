@@ -42,6 +42,9 @@ export const Navigation = () => {
               <Link className="nav-link" to="/goldprice">Gold Price</Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" to="/StockExchangeRate">Stock Exchange Rate</Link>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="/#contact">Contact</a>
             </li>
             {/* Phần login/user info */}

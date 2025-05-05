@@ -54,8 +54,9 @@ export const News = () => {
       {articles.length > 0 && (
         <div className="row mb-4">
           <div className="col-12">
-            <div className="card" style={{ border: 'none' }}>
+            <div className="card" >
               <div className="row g-0">
+
                 <div className="col-md-8">
                   {articles[0].mediaType === 'video' ? (
                     <video
@@ -148,7 +149,7 @@ export const News = () => {
                   </p>
                 </div>
               </div>
-            <hr />
+              <hr />
             </div>
           </div>
         ))}
